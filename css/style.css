@@ -1,0 +1,305 @@
+/* Start Reset Bootstrap CSS Style Here */
+:root {
+    --primary-font: 'Open Sans', sans-serif;
+    --primary-color: #7e8287;
+    --secondary-color: #ffffff;
+    --heading-colro: #02918c;
+    --btn-color: #cfc91d;
+    --h-over-color: ;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+small,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    font-family: open-sans 'san serif';
+}
+
+/* End Reset Bootstrap CSS Style Here */
+
+
+/* Start Common Section CSS Style Here */
+.section_info {
+    padding-top: 100px;
+}
+
+.section_heading {
+    padding-bottom: 60px;
+}
+
+.section_heading h2 {
+    color: var(--heading-colro);
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.section_details h3 {
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 23px;
+    padding: 30px 0;
+}
+
+.section_heading p {
+    color: var(--primary-color);
+    font-size: 16px;
+    line-height: 41px;
+    font-weight: 400;
+}
+
+.section_details p {
+    color: var(--primary-color);
+    font-size: 11px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.section_info .sec_btn {
+    color: #000000;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 5px;
+    font-weight: 800;
+    padding: 19px 42px;
+    text-transform: uppercase;
+    background-color: var(--btn-color);
+}
+
+.pad_sapce {
+    padding: 0 40px;
+}
+
+/* End Common Section CSS Style Here */
+
+/* Start Header Section CSS Style Here */
+#header_section {
+    background-color: var(--heading-colro);
+}
+
+#header_section ul li a {
+    color: var(--secondary-color);
+    font-size: 12px;
+    line-height: 43px;
+    color: var(--secondary-color);
+    padding: 0px 24.5px;
+    font-weight: 800;
+}
+
+/* End Header Section CSS Style Here */
+
+
+/* Start Bannar Section CSS Style Here */
+#bannar_section {
+    color: var(--secondary-color);
+    position: relative;
+    height: 728px;
+    text-align: center;
+    background-position: center !important;
+    background-size: cover !important;
+    z-index: 1;
+
+}
+
+#bannar_section::after {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4));
+    z-index: -1;
+}
+
+#bannar_section h6 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+#bannar_section h1 {
+    font-size: 68px;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: 30px;
+}
+
+#bannar_section p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+#bannar_section img {
+    margin: 52px auto;
+}
+
+/* End Bannar Section CSS Style Here */
+
+/* Start About Section CSS Style  Here */
+#about_section {
+    padding-bottom: 100px;
+    background-color: var(--secondary-color);
+}
+
+#about_section p>b {
+    font-size: 23px;
+    font-weight: 800;
+}
+
+#about_section .about_item {
+    background-color: var(--secondary-color);
+    margin-top: 20px;
+    padding: 55px 60px;
+    border-right: 1px solid var(--primary-color);
+}
+
+#about_section .about_item:last-child {
+    border-right-color: transparent;
+}
+
+/* End About Section CSS Style  Here */
+
+
+/* Start Sevices Section CSS Style Here */
+#service_section {
+    background-color: #f0f0e8;
+    padding-bottom: 30px;
+    background-size: 50% !important;
+    background-position: right !important;
+    background-repeat: no-repeat !important;
+}
+
+#service_section .service_item {
+    padding: 0 112px 55px 0;
+}
+
+#service_section .service_item h3 {
+    padding: 20px 0;
+}
+
+/* End Sevices Section CSS Style Here */
+
+
+/* Start Work Section CSS Style Here */
+#work_section {}
+
+#work_section .img_item {
+    position: relative;
+
+}
+
+#work_section .img {
+    width: 100%;
+    height: 100%;
+}
+
+#work_section .overlay_img {
+    position: absolute;
+    inset: 20px 25px;
+    background-color: var(--heading-colro);
+    z-index: 2;
+    opacity: 0;
+    transform: scale(0) rotateZ(0);
+    transition: 0.4s;
+}
+
+#work_section .overlay_img h3 {
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 41px;
+}
+
+#work_section .overlay_img p {
+    text-align: center;
+    color: var(--secondary-color);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+#work_section .overlay_info_box {
+    padding: 0 40px;
+}
+
+#work_section .img_item:hover .overlay_img {
+    opacity: 1;
+    transform: scale(1) rotateZ(360deg);
+}
+
+/* End Work Section CSS Style Here */
+
+
+/* Start Contact Section CSS Style Here */
+#contact_section {}
+
+#contact_section .section_form {
+    background-color: #0b0b0b;
+    padding: 53px 0;
+}
+
+#contact_section .section_form input {
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+    padding: 15px 0;
+    margin-bottom: 45px;
+}
+
+#contact_section button {
+    padding: 0;
+}
+
+#contact_section .sec_btn {
+    padding: 19px 70px;
+    line-height: 30px;
+    margin: 23px auto 15px auto;
+    border-color: transparent;
+}
+
+/* End Contact Section CSS Style Here */
+
+
+/* Start Bottom Bar CSS Style Here */
+#bottom_bar {
+    background-color: #000000;
+}
+
+#bottom_bar p {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 12px;
+    line-height: 41px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 35px 0
+}
+
+/* End Bottom Bar CSS Style Here */

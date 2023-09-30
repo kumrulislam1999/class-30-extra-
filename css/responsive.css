@@ -1,0 +1,433 @@
+@media (min-width:992px) and (max-width:1199.98px) {
+    #bannar_section h1 {
+        font-size: 55px;
+        letter-spacing: 25px;
+    }
+
+    #about_section .about_item {
+        padding: 50px 44px;
+    }
+
+    #service_section .service_item {
+        padding: 0 88px 50px 0;
+    }
+
+    #work_section .overlay_img .overlay_info_box {
+        padding: 20px;
+    }
+
+    #contact_section .section_form input {
+        margin-bottom: 35px;
+    }
+
+    #contact_section .sec_btn {
+        padding: 19px 65px;
+        line-height: 20px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991.98px) {
+    .section_info {
+        padding-top: 80px;
+    }
+
+    .section_heading {
+        padding-bottom: 40px;
+    }
+
+    .section_heading p {
+        color: var(--primary-color);
+        line-height: 30px;
+
+    }
+
+    #bannar_section {
+        height: 660px;
+    }
+
+    #bannar_section h1 {
+        font-size: 50px;
+        line-height: 65px;
+        letter-spacing: 15px;
+    }
+
+    #bannar_section img {
+        margin: 45px auto;
+    }
+
+    #bannar_section p {
+        line-height: 25px;
+    }
+
+    .section_heading h2 {
+        font-size: 40px;
+    }
+
+    .section_heading h2 {
+        font-size: 40px;
+    }
+
+    #about_section p>b {
+        font-size: 20px;
+    }
+
+    .section_info .sec_btn {
+        line-height: 25px;
+        letter-spacing: 2px;
+        padding: 13px 35px;
+    }
+
+    #about_section .about_item {
+        padding: 25px 15px;
+
+    }
+
+    .section_details h3 {
+        line-height: 16px;
+        padding: 20px 0;
+    }
+
+    #service_section .service_item {
+        padding: 0 30px 40px 0;
+    }
+
+    #about_section {
+        padding-bottom: 80px;
+    }
+
+    #work_section .overlay_img {
+        inset: 0;
+    }
+
+    #work_section .overlay_info_box {
+        padding: 0px;
+    }
+
+    #contact_section .section_form input {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    #contact_section .sec_btn {
+        padding: 15px 45px;
+        line-height: 10px;
+        margin: 15px auto 10px auto;
+    }
+
+    #contact_section .section_form {
+        padding: 45px 0;
+    }
+
+    #bottom_bar p {
+        line-height: 25px;
+        padding: 25px 0;
+    }
+
+
+
+
+
+
+
+}
+
+@media (min-width:576px) and (max-width:767.98px) {
+    #bannar_section {
+        height: 620px;
+    }
+
+    .section_info {
+        padding-top: 60px;
+    }
+
+    .section_heading {
+        padding-bottom: 25px;
+    }
+
+    .section_heading h2 {
+        font-size: 30px;
+    }
+
+    .section_heading p {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .section_details h3 {
+        line-height: 15px;
+        padding: 15px 0;
+    }
+
+    #bannar_section h1 {
+        font-size: 35px;
+        line-height: 45px;
+        letter-spacing: 10px;
+    }
+
+    #bannar_section h6 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    #bannar_section p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .section_info .sec_btn {
+        font-size: 10px;
+        line-height: 15px;
+        letter-spacing: 2px;
+        padding: 13px 25px;
+    }
+
+    #bannar_section img {
+        margin: 25px auto;
+    }
+
+    #about_section p>b {
+        font-size: 15px;
+    }
+
+    #about_section .about_item {
+        margin-top: 25px;
+        padding: 30px 40px;
+        border-right: none;
+    }
+
+    #about_section .about_item:nth-child(odd) {
+        border-right: 1px solid var(--primary-color);
+    }
+
+    #about_section {
+        padding-bottom: 60px;
+    }
+
+    #service_section .service_item {
+        padding: 35px 35px;
+    }
+
+    #service_section {
+        position: relative;
+        background-color: #f0f0e8;
+        padding-bottom: 30px;
+        background-size: cover !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        z-index: 1;
+    }
+
+    #service_section::after {
+        content: "";
+        inset: 0;
+        position: absolute;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.6));
+        z-index: -1;
+    }
+
+    #work_section .overlay_img {
+        inset: 0;
+    }
+
+    #work_section .overlay_info_box {
+        padding: 0px;
+    }
+
+    #work_section .overlay_img h3 {
+        line-height: 20px;
+    }
+
+    #work_section .overlay_img p {
+        line-height: 15px;
+    }
+
+    #contact_section .section_form input {
+        font-size: 11px;
+        padding: 10px 0;
+        margin-bottom: 20px;
+    }
+
+    #contact_section .sec_btn {
+        padding: 10px 30px;
+        line-height: 15px;
+        margin: 15px auto 10px auto;
+    }
+
+    #contact_section .section_form {
+        padding: 30px 0;
+    }
+
+    #contact_section .section_form {
+        background-color: #0b0b0b;
+        padding: 30px 0;
+    }
+
+}
+
+@media (min-width:0px) and (max-width:575.98px) {
+    .section_info {
+        padding-top: 30px;
+    }
+
+    .pad_sapce {
+        padding: 0 20px;
+    }
+
+    .section_heading {
+        padding-bottom: 20px;
+    }
+
+    .section_details h3 {
+        font-size: 16px;
+        line-height: 15px;
+        padding: 10px 0;
+    }
+
+    .section_heading h2 {
+        font-size: 20px;
+    }
+
+    .section_heading p {
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .section_info .sec_btn {
+        font-size: 14px;
+        line-height: 25px;
+        letter-spacing: 1px;
+        padding: 5px 10px;
+    }
+
+    .section_details p {
+        font-size: 14px;
+        line-height: 15px;
+
+    }
+
+    #bannar_section {
+        height: 270px;
+    }
+
+    #bannar_section .section_info {
+        padding-top: 0;
+    }
+
+    #bannar_section h1 {
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: 5px;
+    }
+
+    #bannar_section h6 {
+        font-size: 17px;
+        line-height: 15px;
+    }
+
+    #bannar_section p {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    #bannar_section img {
+        width: 60px;
+        margin: 20px auto;
+    }
+
+
+    #about_section p>b {
+        font-size: 17px;
+        font-weight: 800;
+    }
+
+
+    #about_section .about_item {
+        margin-top: 10px;
+        padding: 10px 20px;
+        border-right: transparent;
+    }
+
+
+    #about_section .about_item:nth-child(odd) {
+        border-right: 1px solid var(--primary-color);
+    }
+
+    #about_section {
+        padding-bottom: 25px;
+    }
+
+    #service_section .section_info {
+        text-align: center;
+    }
+
+    #service_section .service_item {
+        padding: 10px 20px;
+    }
+
+    #service_section .service_item img {
+        margin: auto !important;
+    }
+
+    #service_section {
+        position: relative;
+
+        padding-bottom: 30px;
+        background-size: cover !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        z-index: 1;
+    }
+
+    #service_section .service_item h3 {
+        padding: 15px 0;
+    }
+
+    #service_section::after {
+        content: '';
+        position: absolute;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
+        inset: 0;
+        z-index: -1;
+    }
+
+    #work_section .overlay_img {
+        inset: 0;
+    }
+
+    #work_section .overlay_info_box {
+        padding: 0px;
+    }
+
+    #work_section .overlay_img h3 {
+        line-height: 20px;
+    }
+
+    #work_section .overlay_img p {
+        line-height: 15px;
+    }
+
+    #contact_section .section_form {
+        padding: 10px 0;
+    }
+
+    #contact_section .section_form input {
+
+        font-size: 14px;
+        padding: 8px 0;
+        margin-bottom: 10px;
+    }
+
+    #contact_section .sec_btn {
+        padding: 7px 18px;
+        line-height: 15px;
+        margin: 11px auto 7px auto;
+    }
+
+    #bottom_bar p {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 15px 0;
+    }
+
+}
